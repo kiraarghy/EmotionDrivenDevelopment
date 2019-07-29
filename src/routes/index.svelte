@@ -13,7 +13,9 @@
     max-width: 56em;
     margin: 0 auto;
     text-align: left;
-    font-weight: 500;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
   }
 
   @media (min-width: 480px) {
@@ -27,4 +29,4 @@
   <title>Emotion Driven Development</title>
 </svelte:head>
 
-<h1>Hey, welcome to my blog Emotion Driven Development!</h1>
+<h1>Welcome to my blog Emotion Driven Development.</h1>

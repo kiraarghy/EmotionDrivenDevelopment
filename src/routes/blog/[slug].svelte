@@ -38,7 +38,11 @@
     border-radius: 2px;
     overflow-x: auto;
   }
-
+  h1 {
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+  }
   .content :global(pre) :global(code) {
     background-color: transparent;
     padding: 0;
