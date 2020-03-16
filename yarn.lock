@@ -1157,9 +1157,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -1458,15 +1458,15 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-sapper@^0.27.0:
-  version "0.27.4"
-  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.27.4.tgz#81991bd98de05781c943ea87c764632caca3156c"
-  integrity sha512-BYdiJSiyVguu2FZBbl87mn8KhSu+C8JRl7FurclXbMgpiMW7Yt74HPCcu/hXOubvvZw0kVTnzBlAGJCXZmldnA==
+sapper@^0.27.4:
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.27.10.tgz#72a9a2a58756a6ee1834f7c9e2600b815f4cf596"
+  integrity sha512-hbl+uE7RClCdVst2qyaPuKjZOQx/1iSMiiBPFHU4IiAucuAkZM7hIwTfYQXLOltuAYoFfAEQVV3L9PJ81f7Oig==
   dependencies:
     html-minifier "^4.0.0"
     http-link-header "^1.0.2"
-    shimport "^1.0.0"
-    sourcemap-codec "^1.4.4"
+    shimport "^1.0.1"
+    sourcemap-codec "^1.4.6"
     string-hash "^1.1.3"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
@@ -1506,10 +1506,10 @@ shell-quote@^1.6.1:
     array-reduce "~0.0.0"
     jsonify "~0.0.0"
 
-shimport@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/shimport/-/shimport-1.0.0.tgz#02eba44d3a31a413ef8565d601556d525f333ad6"
-  integrity sha512-XKd+39voZT1rFR1ct+pr8sFSYAW6IvM3LeF87FrgcGHc/uSZ4GfOZVA42LE5LXFOpTWgmDC5sS8DNDtiV4Vd4Q==
+shimport@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/shimport/-/shimport-1.0.1.tgz#32ea5637e7707fdfa9037516f8c2a97786fc9031"
+  integrity sha512-Imf4gH+8WQmT1GvxS/x79qpmfnE6m50hyN1ucatX+7oMCgmaF8obZWCPIzSUe6+P+YmXM46lkP2pxiV2/lt9Og==
 
 sirv@^0.4.0:
   version "0.4.2"
@@ -1541,6 +1541,11 @@ sourcemap-codec@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.4.tgz#c63ea927c029dd6bd9a2b7fa03b3fec02ad56e9f"
   integrity sha512-CYAPYdBu34781kLHkaW3m6b/uUSyMOC2R61gcYMWooeuaGtjof86ZA/8T+qVPPt7np1085CR9hmMGrySwEc8Xg==
+
+sourcemap-codec@^1.4.6:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
+  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
 spdx-correct@^3.0.0:
   version "3.1.0"
@@ -1608,10 +1613,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte@^3.0.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.5.1.tgz#fa6cc030a98df4af05e7a325c8b4537d21257c2d"
-  integrity sha512-iMnuyteFGQ8Yl68G/DHTHY1sLwoAMya1eS0ZOHIm/dqn2etR8WEe8hUAoluLryde4Cft4gvMhtHV3NhE60nBmQ==
+svelte@^3.6.09:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.20.1.tgz#8417fcd883a2f534b642a0737368272e651cf3ac"
+  integrity sha512-m/dw52BZf+p6KYnyKLErIcGalu4pwJrQbUM7VZriRw6ZlJj1qMAZsLcIWzEB3I0hhdJwkKb7LrrvUIeqmbO92Q==
 
 terser@^3.14.1:
   version "3.17.0"
